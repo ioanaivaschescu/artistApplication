@@ -28,7 +28,7 @@ public class Main extends Application {
 //
 //        OffersService.loadOffersFromFile();
 
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LOGIN.fxml"));
         primaryStage.setScene(new Scene(root, 737, 524));
         primaryStage.setResizable(false);
         primaryStage.show();

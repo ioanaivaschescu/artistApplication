@@ -1,12 +1,12 @@
 package controllers;
 
-import exceptions.EmptyFieldsException;
+//import exceptions.EmptyFieldsException;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.text.Text;
-import exceptions.UsernameAlreadyExistsException;
+//import exceptions.UsernameAlreadyExistsException;
 import javafx.stage.Stage;
-import services.UserService;
+//import services.UserService;
 
 public class RegisterController {
 
@@ -35,37 +35,37 @@ public class RegisterController {
 
     @FXML
     public void initialize() {
-        role.getItems().addAll("Owner", "Client");
+        role.getItems().addAll("Artist", "Customer");
     }
 
     @FXML
     public void handleRegisterAction(){
 
+//
+//        if(UserService.checkEmptyFields(usernameField.getText(), passwordField.getText(), firstNameField.getText(), lastNameField.getText(), phoneNumberField.getText(), addressField.getText(), (String) role.getValue())){
+//
+//            try {
+//
+//
+//
+//                UserService.addUser(usernameField.getText(), passwordField.getText(), firstNameField.getText(), lastNameField.getText(), phoneNumberField.getText(), addressField.getText(), (String) role.getValue());
+//                accountSuccesfullLabel.setText("Account created successfully!");
+//                accountSuccesfullLabel.setStyle("-fx-font-color: #000");
+//
+//            } catch (UsernameAlreadyExistsException e) {
+//                accountSuccesfullLabel.setText(e.getMessage());
+//                accountSuccesfullLabel.setStyle("-fx-font-color: #000");
+//            }
+//        }
+//
+//        else{
+//            accountSuccesfullLabel.setText("Please fill in all the fields!!");
+//            accountSuccesfullLabel.setStyle("-fx-font-color: #000");
+//
 
-        if(UserService.checkEmptyFields(usernameField.getText(), passwordField.getText(), firstNameField.getText(), lastNameField.getText(), phoneNumberField.getText(), addressField.getText(), (String) role.getValue())){
-
-            try {
-
-
-
-                UserService.addUser(usernameField.getText(), passwordField.getText(), firstNameField.getText(), lastNameField.getText(), phoneNumberField.getText(), addressField.getText(), (String) role.getValue());
-                accountSuccesfullLabel.setText("Account created successfully!");
-                accountSuccesfullLabel.setStyle("-fx-font-color: #000");
-
-            } catch (UsernameAlreadyExistsException e) {
-                accountSuccesfullLabel.setText(e.getMessage());
-                accountSuccesfullLabel.setStyle("-fx-font-color: #000");
-            }
         }
 
-        else{
-            accountSuccesfullLabel.setText("Please fill in all the fields!!");
-            accountSuccesfullLabel.setStyle("-fx-font-color: #000");
 
-
-        }
-
-    }
 
 
 
