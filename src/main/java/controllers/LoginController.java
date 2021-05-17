@@ -34,46 +34,46 @@ public class LoginController {
 
         String password1 = UserService.encodePassword(usernameTextField.getText(),passwordTextField.getText());
 
+        if(usernameTextField.getText().isEmpty() && passwordTextField.getText().isEmpty())
+        {
 
-        String role;
-        FXMLLoader fxmlLoader = new FXMLLoader();
+        }
+        else{
+            String role;
+            FXMLLoader fxmlLoader = new FXMLLoader();
 
-        int ok =0;
+            int ok =0;
 
-        for (UserModel user : UserService.users) {
-
-
-
-
-            if (usernameTextField.getText().equals(user.getUsername()) && password1.equals(user.getPassword())){
-                role = user.getRole();
-
-                if(role.equals("Artist")){ fxmlLoader.setLocation(getClass().getResource("/ArtistMainPage.fxml"));}
-                else{ fxmlLoader.setLocation(getClass().getResource("/ArtistMainPage.fxml"));};
-
-                ok = 1;
+            for (UserModel user : UserService.users) {
 
 
 
+
+                if (usernameTextField.getText().equals(user.getUsername()) && password1.equals(user.getPassword())){
+                    role = user.getRole();
+
+                    if(role.equals("Artist")){ fxmlLoader.setLocation(getClass().getResource("/ArtistMainPage.fxml"));}
+                    else{ fxmlLoader.setLocation(getClass().getResource("/Customer.fxml"));}
+
+                    ok = 1;
+
+
+                }
 
             }
+            if(ok == 1){
+                Stage stage1 = new Stage();
+                stage1.setScene(new Scene((Parent) fxmlLoader.load(), 1146 ,692));
+                stage1.show();
 
-
-        }
-
-
-        if(ok == 1){
-            Stage stage1 = new Stage();
-            stage1.setScene(new Scene((Parent) fxmlLoader.load(), 1400, 900));
-            stage1.show();
-
-            Stage stage = (Stage) loginButton.getScene().getWindow();
-            stage.close();
+                Stage stage = (Stage) loginButton.getScene().getWindow();
+                stage.close();
 
         }
 
 
 
+        }
 
     }
 
