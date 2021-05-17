@@ -22,9 +22,18 @@ public class ArtistMainPageController {
     @FXML
     private Button signoutbutton;
 
+    @FXML
+    void artbuttonAction() {
 
+    }
 
-    public void customersbuttonAction() throws Exception {
+    @FXML
+    void customersbuttonAction() {
+
+    }
+
+    @FXML
+    void signoutbuttonAction() {
 
     }
 }
