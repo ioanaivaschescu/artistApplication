@@ -9,49 +9,41 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="933.0" prefWidth="826.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RegisterController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="805.0" prefWidth="716.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RegisterController">
    <children>
-      <Pane layoutX="-7.0" layoutY="-2.0" prefHeight="80.0" prefWidth="833.0" style="-fx-background-color: #7FFFD4;">
-         <children>
-            <Label alignment="TOP_CENTER" layoutX="248.0" layoutY="21.0" prefHeight="42.0" prefWidth="336.0" text="User Registration" textAlignment="CENTER">
-               <font>
-                  <Font name="Arial" size="36.0" />
-               </font>
-            </Label>
-         </children>
-      </Pane>
-      <Label layoutX="86.0" layoutY="221.0" prefHeight="42.0" prefWidth="116.0" style="-fx-font-weight: bold;" text="First Name">
+      <Pane layoutX="-7.0" layoutY="-2.0" prefHeight="80.0" prefWidth="833.0" />
+      <Label layoutX="79.0" layoutY="105.0" prefHeight="42.0" prefWidth="116.0" style="-fx-font-weight: bold;" text="First Name">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="firstNameField" layoutX="88.0" layoutY="263.0" prefHeight="34.0" prefWidth="483.0" />
-      <TextField fx:id="lastNameField" layoutX="88.0" layoutY="368.0" prefHeight="34.0" prefWidth="483.0" />
-      <Label layoutX="88.0" layoutY="332.0" prefHeight="27.0" prefWidth="97.0" style="-fx-font-weight: bold;" text="Last Name">
+      <TextField fx:id="firstNameField" layoutX="72.0" layoutY="168.0" prefHeight="34.0" prefWidth="483.0" />
+      <TextField fx:id="lastNameField" layoutX="72.0" layoutY="309.0" prefHeight="34.0" prefWidth="483.0" />
+      <Label layoutX="70.0" layoutY="246.0" prefHeight="27.0" prefWidth="97.0" style="-fx-font-weight: bold;" text="Last Name">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="usernameField" layoutX="88.0" layoutY="476.0" prefHeight="34.0" prefWidth="483.0" />
-      <Label layoutX="86.0" layoutY="440.0" style="-fx-font-weight: bold;" text="Username">
+      <TextField fx:id="usernameField" layoutX="62.0" layoutY="422.0" prefHeight="34.0" prefWidth="483.0" />
+      <Label layoutX="62.0" layoutY="376.0" style="-fx-font-weight: bold;" text="Username">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="88.0" layoutY="558.0" style="-fx-font-weight: bold;" text="Password">
+      <Label layoutX="63.0" layoutY="505.0" style="-fx-font-weight: bold;" text="Password">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <PasswordField fx:id="passwordField" layoutX="88.0" layoutY="585.0" prefHeight="34.0" prefWidth="483.0" />
-      <Button fx:id="registerButton" layoutX="464.0" layoutY="840.0" mnemonicParsing="false" onAction="#handleRegisterAction" prefHeight="52.0" prefWidth="225.0" style="-fx-background-color: #7FFFD4; -fx-background-radius: 10;" text="Register" />
+      <PasswordField fx:id="passwordField" layoutX="62.0" layoutY="546.0" prefHeight="34.0" prefWidth="483.0" />
+      <Button fx:id="registerButton" layoutX="433.0" layoutY="735.0" mnemonicParsing="false" onAction="#handleRegisterAction" prefHeight="52.0" prefWidth="225.0" style="-fx-background-color: #7FFFD4;" text="Register" />
       <!--        <Button fx:id="cancelRegisterButton" layoutX="77.0" layoutY="927.0" mnemonicParsing="false" onAction="#cancelRegisterButtonAction" prefHeight="61.0" prefWidth="234.0" style="-fx-background-color: #0047B3; -fx-background-radius: 10;" text="Cancel" textFill="WHITE" />-->
-      <Label layoutX="341.0" layoutY="735.0" style="-fx-font-weight: bold;" text="Registering as :">
+      <Label layoutX="333.0" layoutY="626.0" style="-fx-font-weight: bold;" text="Registering as :">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <ChoiceBox fx:id="role" layoutX="348.0" layoutY="794.0" prefHeight="27.0" prefWidth="116.0" style="-fx-border-radius: 10;" />
-      <Button fx:id="cancelButton" layoutX="108.0" layoutY="840.0" mnemonicParsing="false" onAction="#cancelButtonAction" prefHeight="52.0" prefWidth="205.0" style="-fx-background-color: #7FFFD4; -fx-background-radius: 10;" text="Cancel" />
+      <ChoiceBox fx:id="role" layoutX="333.0" layoutY="676.0" prefHeight="27.0" prefWidth="116.0" style="-fx-border-radius: 10;" />
+      <Button fx:id="cancelButton" layoutX="79.0" layoutY="735.0" mnemonicParsing="false" onAction="#cancelButtonAction" prefHeight="52.0" prefWidth="205.0" style="-fx-background-color: #7FFFD4;" text="Cancel" />
    </children>
 </AnchorPane>

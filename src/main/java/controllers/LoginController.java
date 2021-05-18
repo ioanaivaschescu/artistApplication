@@ -82,7 +82,7 @@ public class LoginController {
 
         FXMLLoader fxmlLoader = new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("/Register.fxml"));
-        Scene scene = new Scene((Parent) fxmlLoader.load(),826,933);
+        Scene scene = new Scene((Parent) fxmlLoader.load(),716,805);
         Stage stage1 = new Stage();
         stage1.setScene(scene);
         stage1.setResizable(false);
