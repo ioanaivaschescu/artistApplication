@@ -3,6 +3,7 @@ package controllers;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import services.PurchaseService;
 
 public class onePieceController {
 
@@ -36,6 +37,8 @@ public class onePieceController {
 
     @FXML
     void purchaseButtonAction() {
+
+        PurchaseService.addPURCHASE(sizeLabel.getText(), materialsLabel.getText(),categoryLabel.getText(),priceLabel.getText(),descriptionLabel.getText());
 
 
 

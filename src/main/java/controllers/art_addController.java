@@ -7,7 +7,6 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import services.ProductService;
 
-import java.io.IOException;
 
 public class art_addController {
 
@@ -35,6 +34,7 @@ public class art_addController {
     @FXML
     void addartAction(){
         ProductService.addPRODUCT(pricetextfield.getText(),sizetextfield.getText(),materialstextfield.getText(),descriptiontextfield.getText(),categoryTextField.getText());
+
         Stage stage = (Stage)addart.getScene().getWindow();
         stage.close();
 

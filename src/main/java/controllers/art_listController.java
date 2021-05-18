@@ -6,6 +6,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -22,16 +23,13 @@ public class art_listController implements Initializable {
     private BorderPane searchPane;
 
     @FXML
-    private VBox apartmentsLayout;
+    private VBox vbox;
 
     @FXML
     private Button add_art;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
-        //profileController aux = new profileController();
-
 
         for (ProductModel product : ProductService.products) {
 
@@ -49,7 +47,7 @@ public class art_listController implements Initializable {
                     art_viewController art = fxmlLoader.getController();
                     art.setData(product.getSize(), product.getPrice(), product.getMaterials(), product.getCategory(), product.getDescription());
 
-                    apartmentsLayout.getChildren().add(pane);
+                    vbox.getChildren().add(pane);
 
 
                 } catch (IOException e) {

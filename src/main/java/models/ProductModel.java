@@ -34,7 +34,7 @@ public class ProductModel {
     }
 
     public void setMaterials(String materials) {
-        materials = materials;
+        this.materials = materials;
     }
 
     public String getMaterials() {
@@ -42,7 +42,7 @@ public class ProductModel {
     }
 
     public void setCategory(String category) {
-        category = category;
+        this.category = category;
     }
 
     public String getCategory() {
@@ -80,10 +80,10 @@ public class ProductModel {
 
     @Override
     public String toString() {
-        return "Apartment{" +
-                "nrOfRooms='" + size + '\'' +
-                ", Utilities='" + materials + '\'' +
-                ", Address='" + category + '\'' +
+        return "Product{" +
+                "size='" + size + '\'' +
+                ", materials='" + materials + '\'' +
+                ", category='" + category + '\'' +
                 ", price='" + price + '\'' +
                 ", Description='" + Description + '\'' +
                 '}';

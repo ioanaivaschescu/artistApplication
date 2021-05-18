@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane prefHeight="723.0" prefWidth="1049.0" style="-fx-background-color: f0efeb;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.art_viewController">
-   <center>
-      <AnchorPane prefHeight="478.0" prefWidth="954.0" style="-fx-background-color: #fff; -fx-background-radius: 10;" BorderPane.alignment="CENTER">
+<BorderPane prefHeight="543.0" prefWidth="710.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.art_viewController">
+   <right>
+      <AnchorPane prefHeight="402.0" prefWidth="558.0" style="-fx-background-color: #fff; -fx-border-color: #000;" BorderPane.alignment="CENTER">
          <children>
-            <Label fx:id="sizeLabel" layoutX="321.0" layoutY="148.0" prefHeight="36.0" prefWidth="625.0" style="-fx-text-fill: #000;" text="Label" />
-            <Label fx:id="materialsLabel" layoutX="321.0" layoutY="244.0" prefHeight="36.0" prefWidth="411.0" style="-fx-text-fill: #000;" text="Label" />
-            <Label layoutX="57.0" layoutY="148.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Size" />
-            <Label layoutX="57.0" layoutY="194.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Price" />
-            <Label layoutX="57.0" layoutY="244.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Materials" />
-            <Label layoutX="57.0" layoutY="375.0" style="-fx-text-fill: #000;" text="Description" textFill="WHITE" />
-            <Label fx:id="descLabel" layoutX="321.0" layoutY="375.0" style="-fx-text-fill: #000;" text="Label" textFill="WHITE" />
-            <Label fx:id="priceLabel" layoutX="321.0" layoutY="198.0" prefHeight="29.0" prefWidth="383.0" text="Label" />
-            <Label layoutX="57.0" layoutY="303.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Category" />
-            <Label fx:id="categoryLabel" layoutX="321.0" layoutY="303.0" prefHeight="36.0" prefWidth="411.0" style="-fx-text-fill: #000;" text="Label" />
+            <Label fx:id="sizeLabel" layoutX="253.0" layoutY="63.0" prefHeight="36.0" prefWidth="124.0" style="-fx-text-fill: #000;" text="Label" />
+            <Label fx:id="materialsLabel" layoutX="252.0" layoutY="151.0" prefHeight="36.0" prefWidth="90.0" style="-fx-text-fill: #000;" text="Label" />
+            <Label layoutX="49.0" layoutY="63.0" prefHeight="36.0" prefWidth="61.0" style="-fx-text-fill: #000;" text="Size" />
+            <Label layoutX="49.0" layoutY="105.0" prefHeight="36.0" prefWidth="48.0" style="-fx-text-fill: #000;" text="Price" />
+            <Label layoutX="50.0" layoutY="151.0" prefHeight="36.0" prefWidth="65.0" style="-fx-text-fill: #000;" text="Materials" />
+            <Label layoutX="46.0" layoutY="244.0" style="-fx-text-fill: #000;" text="Description" textFill="WHITE" />
+            <Label fx:id="descLabel" layoutX="252.0" layoutY="244.0" prefHeight="18.0" prefWidth="108.0" style="-fx-text-fill: #000;" text="Label" textFill="WHITE" />
+            <Label fx:id="priceLabel" layoutX="249.0" layoutY="109.0" prefHeight="29.0" prefWidth="114.0" text="Label" />
+            <Label layoutX="48.0" layoutY="195.0" prefHeight="36.0" prefWidth="70.0" style="-fx-text-fill: #000;" text="Category" />
+            <Label fx:id="categoryLabel" layoutX="253.0" layoutY="195.0" prefHeight="36.0" prefWidth="53.0" style="-fx-text-fill: #000;" text="Label" />
          </children>
          <BorderPane.margin>
             <Insets bottom="100.0" left="100.0" right="100.0" top="100.0" />
          </BorderPane.margin>
-         <effect>
-            <DropShadow color="#151822" height="26.93" radius="12.965" spread="0.38" width="26.93" />
-         </effect></AnchorPane>
-   </center>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></AnchorPane>
+   </right>
 </BorderPane>
