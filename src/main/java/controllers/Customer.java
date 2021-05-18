@@ -21,15 +21,34 @@ public class Customer {
     private Pane centrePane;
 
     @FXML
-    private Button artBrowse;
+    private Button artCatalog;
 
     @FXML
     private Button signoutbutton;
 
     @FXML
-    void artBrowseAction() {
+    private Button BrowseArt;
+
+    @FXML
+    void BrowseAction() {
+
+
 
     }
+
+    @FXML
+    void artCatalogAction() throws IOException {
+
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("/artCatalog.fxml"));
+        Pane pane = fxmlLoader.load();
+
+
+        borderPane.setCenter(pane);
+
+
+    }
+
 
     @FXML
     void signoutbuttonAction() throws IOException {

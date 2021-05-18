@@ -2,17 +2,13 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
 
-<BorderPane fx:id="searchPane" prefHeight="723.0" prefWidth="1049.0" style="-fx-background-color: #F7F9F9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.apartmentsController">
+<BorderPane fx:id="searchPane" prefHeight="723.0" prefWidth="1049.0" style="-fx-background-color: #F7F9F9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CustomerArtController">
    <top>
       <AnchorPane prefHeight="156.0" prefWidth="898.0" style="-fx-background-color: f0efeb;" BorderPane.alignment="CENTER">
-         <children>
-            <TextField fx:id="searchBar" layoutX="228.0" layoutY="53.0" maxWidth="600.0" prefHeight="35.0" prefWidth="490.0" promptText="search" style="-fx-background-radius: 20; -fx-background-color: #fff; -fx-border-width: 0.5; -fx-border-radius: 15; -fx-border-color: #000;" AnchorPane.leftAnchor="228.0" />
-         </children>
          <BorderPane.margin>
             <Insets />
          </BorderPane.margin>
@@ -23,12 +19,12 @@
          <BorderPane.margin>
             <Insets />
          </BorderPane.margin>
-         <content>
-            <VBox fx:id="apartmentsLayout" prefHeight="502.0" prefWidth="896.0" style="-fx-background-color: f0efeb;" />
-         </content>
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" />
          </padding>
+         <content>
+            <HBox fx:id="hbox" prefHeight="100.0" prefWidth="200.0" />
+         </content>
       </ScrollPane>
    </center>
 </BorderPane>

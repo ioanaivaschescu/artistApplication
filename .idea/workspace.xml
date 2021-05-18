@@ -23,16 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1bfa6d-abaa-4dec-870e-cef54be9b2a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/CustomerArtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/artCatalogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/artCatalog.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ArtistMainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ArtistMainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/art_addController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/art_addController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/art_listController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/art_listController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ArtistMainPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ArtistMainPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/art.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/art.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/art_add.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/art_add.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/art_list.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/art_list.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/customer.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RentingApplication" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -113,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621277086629</updated>
       <workItem from="1621277088881" duration="8943000" />
-      <workItem from="1621321497254" duration="1676000" />
+      <workItem from="1621321497254" duration="3880000" />
     </task>
     <task id="LOCAL-00001" summary="commits">
       <created>1621277439849</created>
@@ -157,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621286386416</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="managed to link add page">
+      <created>1621324739592</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621324739592</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,36 +188,37 @@
     <MESSAGE value="the writing in the json file is almost done" />
     <MESSAGE value="it now lets u go to the screen u want;)" />
     <MESSAGE value="the page for the customer is now oke" />
-    <option name="LAST_COMMIT_MESSAGE" value="the page for the customer is now oke" />
+    <MESSAGE value="managed to link add page" />
+    <option name="LAST_COMMIT_MESSAGE" value="managed to link add page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621284678017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621284678017" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1621277129207">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1621327003737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621277129207" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621324622674">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621327003737" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621327140271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621324622674" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621324622674">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621327140271" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621327140270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621324622674" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621324622674">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621327140270" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621327140270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621324622674" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621324622674">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621327140270" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621327140271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621324622674" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1621286398482">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621327140271" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1621324833499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621286398482" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621324833499" />
   </component>
 </project>
