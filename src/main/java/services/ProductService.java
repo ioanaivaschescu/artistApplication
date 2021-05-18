@@ -34,7 +34,7 @@ public class ProductService {
         });
     }
 
-    public static void addPRODUCT(String size, String materials, String category, String price, String Description) throws UsernameAlreadyExistsException {
+    public static void addPRODUCT(String size, String materials, String category, String price, String Description){
 
             products.add(new ProductModel(size,materials,category, price,Description));
             persistUsers();

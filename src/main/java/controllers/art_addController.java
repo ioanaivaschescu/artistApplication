@@ -4,6 +4,10 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
+import javafx.stage.Stage;
+import services.ProductService;
+
+import java.io.IOException;
 
 public class art_addController {
 
@@ -29,8 +33,10 @@ public class art_addController {
     private TextField categoryTextField;
 
     @FXML
-    void addartAction() {
-
+    void addartAction(){
+        ProductService.addPRODUCT(pricetextfield.getText(),sizetextfield.getText(),materialstextfield.getText(),descriptiontextfield.getText(),categoryTextField.getText());
+        Stage stage = (Stage)addart.getScene().getWindow();
+        stage.close();
 
 
     }
