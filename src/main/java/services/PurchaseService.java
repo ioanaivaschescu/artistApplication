@@ -11,36 +11,36 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-public class ProductService {
+public class PurchaseService {
 
 
 
 
     public static List<ProductModel> products;
-    public static Path PATH = File.getPathToFile("config", "products.json");
+    public static Path PATH = File.getPathToFile("config", "purchase.json");
 
 
-    public static void loadPRODUCTS() throws IOException {
+    public static void loadPURCHASE() throws IOException {
 
         if (!Files.exists(PATH)) {
-            FileUtils.copyURLToFile(UserService.class.getClassLoader().getResource("products.json"), PATH.toFile());
+            FileUtils.copyURLToFile(UserService.class.getClassLoader().getResource("purchase.json"), PATH.toFile());
         }
 
         ObjectMapper objectMapper = new ObjectMapper();
 
-       products = objectMapper.readValue(PATH.toFile(), new TypeReference<List<ProductModel>>() {
+        products = objectMapper.readValue(PATH.toFile(), new TypeReference<List<ProductModel>>() {
         });
     }
 
-    public static void addPRODUCT(String size, String materials, String category, String price, String Description){
+    public static void addPURCHASE(String size, String materials, String category, String price, String Description){
 
-            products.add(new ProductModel(size,materials,category, price,Description));
-            persistUsers();
-        }
+        products.add(new ProductModel(size,materials,category, price,Description));
+        persistPurchases();
+    }
 
 
 
-    private static void persistUsers() {
+    private static void persistPurchases() {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             objectMapper.writerWithDefaultPrettyPrinter().writeValue(PATH.toFile(), products);

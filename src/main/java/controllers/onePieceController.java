@@ -25,6 +25,15 @@ public class onePieceController {
     @FXML
     private Button purchaseButton;
 
+
+    public void setlabels(String size, String materials, String category, String price, String Description){
+        priceLabel.setText(price);
+        sizeLabel.setText(size);
+        materialsLabel.setText(materials);
+        categoryLabel.setText(category);
+        descriptionLabel.setText(Description);
+    }
+
     @FXML
     void purchaseButtonAction() {
 
