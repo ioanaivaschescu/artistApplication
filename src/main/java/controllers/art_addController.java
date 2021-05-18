@@ -33,7 +33,7 @@ public class art_addController {
 
     @FXML
     void addartAction(){
-        ProductService.addPRODUCT(pricetextfield.getText(),sizetextfield.getText(),materialstextfield.getText(),descriptiontextfield.getText(),categoryTextField.getText());
+        ProductService.addPRODUCT(sizetextfield.getText(),materialstextfield.getText(),categoryTextField.getText(),pricetextfield.getText(),descriptiontextfield.getText());
 
         Stage stage = (Stage)addart.getScene().getWindow();
         stage.close();

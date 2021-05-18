@@ -5,11 +5,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import services.ProductService;
+
 
 import java.io.IOException;
 
@@ -36,8 +35,6 @@ public class Customer {
         FXMLLoader fxmlLoader = new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("/art.fxml"));
         Pane pane = fxmlLoader.load();
-
-
         borderPane.setCenter(pane);
 
 
@@ -49,8 +46,6 @@ public class Customer {
         FXMLLoader fxmlLoader = new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("/artCatalog.fxml"));
         Pane pane = fxmlLoader.load();
-
-
         borderPane.setCenter(pane);
 
 

@@ -47,9 +47,6 @@ public class ArtistMainPageController {
         BorderPane view = fxmlLoader.load();
         borderPane.setCenter(view);
 
-
-        
-
     }
 
     @FXML

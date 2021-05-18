@@ -32,7 +32,7 @@ public class CustomerArtController implements Initializable {
                 BorderPane pane = temp.load();
 
                 onePieceController one = temp.getController();
-                one.setlabels(ProductService.products.get(i).getSize(), ProductService.products.get(i).getPrice(), ProductService.products.get(i).getMaterials(),ProductService.products.get(i).getCategory(),ProductService.products.get(i).getDescription());
+                one.setlabels(ProductService.products.get(i).getSize(),ProductService.products.get(i).getMaterials(), ProductService.products.get(i).getCategory(),ProductService.products.get(i).getPrice(),ProductService.products.get(i).getDescription());
                 hbox.getChildren().add(pane);
 
 

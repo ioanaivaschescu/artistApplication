@@ -1,19 +1,17 @@
 package controllers;
 
-//import exceptions.EmptyFieldsException;
 import exceptions.UsernameAlreadyExistsException;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import javafx.scene.text.Text;
-//import exceptions.UsernameAlreadyExistsException;
+
+
 import javafx.stage.Stage;
 import services.UserService;
-//import services.UserService;
+
 
 public class RegisterController {
 
-    @FXML
-    public Text registrationMessage;
+
     @FXML
     public PasswordField passwordField;
     @FXML

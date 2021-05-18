@@ -6,7 +6,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import models.ProductModel;
-import services.ProductService;
 import services.PurchaseService;
 
 import java.io.IOException;
