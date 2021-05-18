@@ -22,14 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1bfa6d-abaa-4dec-870e-cef54be9b2a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/artistCustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/artistCustomets.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ArtistMainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ArtistMainPageController.java" afterDir="false" />
-    </list>
+    <list default="true" id="bc1bfa6d-abaa-4dec-870e-cef54be9b2a8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,19 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -118,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621277086629</updated>
       <workItem from="1621277088881" duration="8943000" />
-      <workItem from="1621321497254" duration="9738000" />
+      <workItem from="1621321497254" duration="10027000" />
     </task>
     <task id="LOCAL-00001" summary="commits">
       <created>1621277439849</created>
@@ -197,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621333030094</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="the button for the customer works now">
+      <created>1621333871107</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621333871107</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +214,8 @@
     <MESSAGE value="browse almost works" />
     <MESSAGE value="tests" />
     <MESSAGE value="error fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="error fixes" />
+    <MESSAGE value="the button for the customer works now" />
+    <option name="LAST_COMMIT_MESSAGE" value="the button for the customer works now" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1621329278306">
@@ -242,26 +230,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621327003737" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621333656566">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621333987151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333656566" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621333656566">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333987151" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621333987150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333656566" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621333656566">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333987150" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621333987150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333656566" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621333656566">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333987150" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621333987151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333656566" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1621333087130">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333987151" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1621333884600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333087130" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333884600" />
     <state x="731" y="306" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1621331345245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
