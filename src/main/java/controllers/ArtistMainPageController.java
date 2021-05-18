@@ -29,34 +29,33 @@ public class ArtistMainPageController {
     private Button signoutbutton;
 
     @FXML
-    void artbuttonAction() {
+    void artbuttonAction() throws IOException {
+
+
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("/art_list.fxml"));
+        BorderPane view = fxmlLoader.load();
+        borderPane.setCenter(view);
 
     }
 
     @FXML
     void customersbuttonAction() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader();
 
-        fxmlLoader.setLocation(getClass().getResource("/art_list.fxml"));
-
-        //Pane view = object.getPage("Screen1");
-
-        BorderPane view = fxmlLoader.load();
-
-        borderPane.setCenter(view);
 
     }
 
     @FXML
     private void signoutbuttonAction() throws IOException {
 
-//            Stage stage = (Stage) signoutbutton.getScene().getWindow();
-//            stage.close();
-//            Stage primaryStage = new Stage();
-//            Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("login.fxml"));
-//            primaryStage.setScene(new Scene(root, 737, 524));
-//            primaryStage.setResizable(false);
-//            primaryStage.show();
+            Stage stage = (Stage) signoutbutton.getScene().getWindow();
+            stage.close();
+
+            Stage primaryStage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LOGIN.fxml"));
+            primaryStage.setScene(new Scene(root, 737, 524));
+            primaryStage.setResizable(false);
+            primaryStage.show();
 
         }
 

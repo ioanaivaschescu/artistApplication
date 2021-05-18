@@ -14,19 +14,24 @@ public class art_addController {
     private Button addart;
 
     @FXML
-    private TextField adresstextfield;
-
-    @FXML
     private TextField pricetextfield;
 
     @FXML
-    private TextField utilitiestextfield;
+    private TextField sizetextfield;
+
+    @FXML
+    private TextField materialstextfield;
 
     @FXML
     private TextField descriptiontextfield;
 
     @FXML
+    private TextField categoryTextField;
+
+    @FXML
     void addartAction() {
+
+
 
     }
 

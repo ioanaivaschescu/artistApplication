@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
@@ -15,12 +12,6 @@
       <AnchorPane prefHeight="156.0" prefWidth="898.0" style="-fx-background-color: f0efeb;" BorderPane.alignment="CENTER">
          <children>
             <TextField fx:id="searchBar" layoutX="228.0" layoutY="53.0" maxWidth="600.0" prefHeight="35.0" prefWidth="490.0" promptText="search" style="-fx-background-radius: 20; -fx-background-color: #fff; -fx-border-width: 0.5; -fx-border-radius: 15; -fx-border-color: #000;" AnchorPane.leftAnchor="228.0" />
-            <ImageView fitHeight="27.0" fitWidth="34.0" layoutX="680.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../../RentingApplication/rentingApplication/src/main/resources/images/585e4ae1cb11b227491c3393.png" />
-               </image>
-            </ImageView>
-            <Button fx:id="searchButton" layoutX="675.0" layoutY="59.0" minWidth="35.0" mnemonicParsing="false" onAction="#searchButtonAction" prefHeight="25.0" prefWidth="35.0" style="-fx-opacity: 0;" text="Button" />
          </children>
          <BorderPane.margin>
             <Insets />
@@ -40,7 +31,4 @@
          </padding>
       </ScrollPane>
    </center>
-   <right>
-      <AnchorPane prefHeight="567.0" prefWidth="548.0" style="-fx-background-color: #f0efeb;" BorderPane.alignment="CENTER" />
-   </right>
 </BorderPane>

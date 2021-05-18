@@ -10,11 +10,11 @@
       <Pane fx:id="centrePane" prefHeight="692.0" prefWidth="1050.0" style="-fx-background-color: #ffff;" BorderPane.alignment="CENTER" />
    </center>
    <top>
-      <AnchorPane prefHeight="113.0" prefWidth="1146.0" style="-fx-background-color: #7FFFD4;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="67.0" prefWidth="1146.0" style="-fx-background-color: #7FFFD4;" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="artbutton" layoutX="83.0" layoutY="25.0" mnemonicParsing="false" onAction="#artbuttonAction" prefHeight="64.0" prefWidth="156.0" style="-fx-border-radius: 15; -fx-background-radius: 20;" text="Art" />
-            <Button fx:id="customersbutton" layoutX="471.0" layoutY="23.0" mnemonicParsing="false" onAction="#customersbuttonAction" prefHeight="67.0" prefWidth="165.0" style="-fx-border-radius: 15; -fx-background-radius: 20;" text="Customers" />
-            <Button fx:id="signoutbutton" layoutX="882.0" layoutY="24.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="66.0" prefWidth="164.0" style="-fx-background-radius: 20; -fx-border-radius: 15;" text="Sign out" />
+            <Button fx:id="artbutton" layoutX="200.0" layoutY="17.0" mnemonicParsing="false" onAction="#artbuttonAction" prefHeight="34.0" prefWidth="134.0" style="-fx-border-radius: 15; -fx-background-radius: 20; -fx-background-color: #ffff; -fx-text-fill: #000;" text="Art" />
+            <Button fx:id="customersbutton" layoutX="672.0" layoutY="17.0" mnemonicParsing="false" onAction="#customersbuttonAction" prefHeight="33.0" prefWidth="134.0" style="-fx-border-radius: 15; -fx-background-radius: 20; -fx-background-color: #ffff; -fx-text-fill: #000;" text="Customers" />
+            <Button fx:id="signoutbutton" layoutX="1057.0" layoutY="17.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="33.0" prefWidth="66.0" style="-fx-background-radius: 20; -fx-border-radius: 15; -fx-background-color: #ffff; -fx-text-fill: #000;" text="Sign out" />
          </children>
       </AnchorPane>
    </top>
