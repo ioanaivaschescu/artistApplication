@@ -14,7 +14,7 @@
             <Insets />
          </BorderPane.margin>
          <children>
-            <Button fx:id="add_art" layoutX="421.0" layoutY="47.0" mnemonicParsing="false" onAction="#add_artAction" prefHeight="34.0" prefWidth="208.0" style="-fx-background-color: #7FFFD4; -fx-background-radius: 10;" text="Add" />
+            <Button fx:id="add_art" layoutX="361.0" layoutY="47.0" mnemonicParsing="false" onAction="#add_artAction" prefHeight="34.0" prefWidth="328.0" style="-fx-background-color: #7FFFD4;" text="Add" />
          </children>
       </AnchorPane>
    </top>
