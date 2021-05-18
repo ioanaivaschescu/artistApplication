@@ -8,6 +8,7 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import services.ProductService;
+import services.PurchaseService;
 import services.UserService;
 
 
@@ -25,11 +26,7 @@ public class Main extends Application {
 
         UserService.loadUsers();
         ProductService.loadPRODUCTS();
-//
-//        ApartmentService.loadAFromFile();
-//
-//        OffersService.loadOffersFromFile();
-
+        PurchaseService.loadPURCHASE();
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LOGIN.fxml"));
         primaryStage.setScene(new Scene(root, 737, 524));
         primaryStage.setResizable(false);
