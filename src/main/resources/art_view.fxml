@@ -7,17 +7,19 @@
 <?import javafx.scene.layout.BorderPane?>
 
 <BorderPane prefHeight="723.0" prefWidth="1049.0" style="-fx-background-color: f0efeb;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.art_viewController">
-   <right>
+   <center>
       <AnchorPane prefHeight="478.0" prefWidth="954.0" style="-fx-background-color: #fff; -fx-background-radius: 10;" BorderPane.alignment="CENTER">
          <children>
-            <Label fx:id="sizeLabel" layoutX="329.0" layoutY="166.0" prefHeight="36.0" prefWidth="625.0" style="-fx-text-fill: #000;" text="Label" />
-            <Label fx:id="materialsLabel" layoutX="329.0" layoutY="296.0" prefHeight="36.0" prefWidth="411.0" style="-fx-text-fill: #000;" text="Label" />
-            <Label layoutX="57.0" layoutY="166.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Size" />
-            <Label layoutX="57.0" layoutY="226.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Price" />
-            <Label layoutX="57.0" layoutY="296.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Materials" />
+            <Label fx:id="sizeLabel" layoutX="321.0" layoutY="148.0" prefHeight="36.0" prefWidth="625.0" style="-fx-text-fill: #000;" text="Label" />
+            <Label fx:id="materialsLabel" layoutX="321.0" layoutY="244.0" prefHeight="36.0" prefWidth="411.0" style="-fx-text-fill: #000;" text="Label" />
+            <Label layoutX="57.0" layoutY="148.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Size" />
+            <Label layoutX="57.0" layoutY="194.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Price" />
+            <Label layoutX="57.0" layoutY="244.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Materials" />
             <Label layoutX="57.0" layoutY="375.0" style="-fx-text-fill: #000;" text="Description" textFill="WHITE" />
-            <Label fx:id="descLabel" layoutX="329.0" layoutY="375.0" style="-fx-text-fill: #000;" text="Label" textFill="WHITE" />
-            <Label fx:id="priceLabel" layoutX="329.0" layoutY="230.0" prefHeight="29.0" prefWidth="383.0" text="Label" />
+            <Label fx:id="descLabel" layoutX="321.0" layoutY="375.0" style="-fx-text-fill: #000;" text="Label" textFill="WHITE" />
+            <Label fx:id="priceLabel" layoutX="321.0" layoutY="198.0" prefHeight="29.0" prefWidth="383.0" text="Label" />
+            <Label layoutX="57.0" layoutY="303.0" prefHeight="36.0" prefWidth="249.0" style="-fx-text-fill: #000;" text="Category" />
+            <Label fx:id="categoryLabel" layoutX="321.0" layoutY="303.0" prefHeight="36.0" prefWidth="411.0" style="-fx-text-fill: #000;" text="Label" />
          </children>
          <BorderPane.margin>
             <Insets bottom="100.0" left="100.0" right="100.0" top="100.0" />
@@ -25,5 +27,5 @@
          <effect>
             <DropShadow color="#151822" height="26.93" radius="12.965" spread="0.38" width="26.93" />
          </effect></AnchorPane>
-   </right>
+   </center>
 </BorderPane>
