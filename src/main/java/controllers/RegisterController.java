@@ -25,15 +25,9 @@ public class RegisterController {
     public TextField firstNameField;
     @FXML
     public TextField lastNameField;
-
-    @FXML
-    private Label wronglogin;
-
     @FXML
     private Button cancelButton;
 
-    @FXML
-    public Label accountSuccesfullLabel;
 
     @FXML
     public void initialize() {

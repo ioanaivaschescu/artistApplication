@@ -9,6 +9,7 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import services.ProductService;
 
 import java.io.IOException;
 
@@ -30,8 +31,14 @@ public class Customer {
     private Button BrowseArt;
 
     @FXML
-    void BrowseAction() {
+    void BrowseAction() throws IOException {
 
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("/art.fxml"));
+        Pane pane = fxmlLoader.load();
+
+
+        borderPane.setCenter(pane);
 
 
     }
