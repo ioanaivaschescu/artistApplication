@@ -2,9 +2,9 @@ package services;
 
 import exceptions.UsernameAlreadyExistsException;
 import org.apache.commons.io.FileUtils;
-import org.junit.Test;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 
 import static org.junit.Assert.*;
@@ -31,25 +31,25 @@ class UserServiceTest {
         FileUtils.cleanDirectory(File.getPathToFile().toFile());
     }
 
+
     @Test
-    public static void loadUsers() throws IOException{
+    void loadUsers() throws IOException {
+
         UserService.loadUsers();
         assertTrue(Files.exists(UserService.PATH));
     }
 
     @Test
-    public void addUser() throws IOException, UsernameAlreadyExistsException {
-        //int aux=UserService.getUsers().size();
+    void addUser() throws IOException, UsernameAlreadyExistsException {
         UserService.loadUsers();
         UserService.addUser("ok1","ok2","ok3","ok4","ok5");
         assertNotNull(UserService.users);
-        //assertEquals(aux+1,UserService.getUsers().size());
     }
+
     @Test
-    public static void encodePassword()
-    {
-        assertNotEquals("test for pass",UserService.encodePassword("usr1","pass1"));
+    void encodePassword() {
+        assertNotEquals("pass1",UserService.encodePassword("usr1","pass1"));
     }
-
-
 }
+
+
