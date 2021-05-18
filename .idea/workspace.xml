@@ -23,14 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1bfa6d-abaa-4dec-870e-cef54be9b2a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/artistCustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/artistCustomets.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/CustomerArtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/CustomerArtController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/art_addController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/art_addController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/art_listController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/art_listController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/onePieceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/onePieceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/ProductModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ProductModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/art_list.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/art_list.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/art_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/art_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ArtistMainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ArtistMainPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -120,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621277086629</updated>
       <workItem from="1621277088881" duration="8943000" />
-      <workItem from="1621321497254" duration="9055000" />
+      <workItem from="1621321497254" duration="9738000" />
     </task>
     <task id="LOCAL-00001" summary="commits">
       <created>1621277439849</created>
@@ -192,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621331363809</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="error fixes">
+      <created>1621333030094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621333030094</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +226,8 @@
     <MESSAGE value="managed to link add page" />
     <MESSAGE value="browse almost works" />
     <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="error fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="error fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1621329278306">
@@ -236,26 +242,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621327003737" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621332996644">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621333656566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621332996644" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621332996643">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333656566" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621333656566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621332996643" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621332996643">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333656566" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621333656566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621332996643" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621332996644">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333656566" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621333656566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621332996644" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1621331377432">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333656566" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1621333087130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621331377432" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1621333087130" />
     <state x="731" y="306" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1621331345245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -42,6 +42,12 @@ public class ArtistMainPageController {
     @FXML
     void customersbuttonAction() throws IOException {
 
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("/artistCustomets.fxml"));
+        BorderPane view = fxmlLoader.load();
+        borderPane.setCenter(view);
+
+
         
 
     }
